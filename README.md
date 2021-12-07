@@ -1,7 +1,13 @@
+# Changes in Precipitation Levels in NYC and Its Correlation With Land/Ocean Temperatures as Global Indicators of Climate Change
+
 ### Project Background:
 
 
 ### Data Acquisition and Cleaning:
+
+### Data Exploration and Analysis:
+
+### Data Visualization 
 
 
 ```markdown
