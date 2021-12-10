@@ -16,7 +16,13 @@ Both of the datasets used for this project are from the National Oceanic and Atm
 
 ### Analysis:
 
-![image](https://github.com/Saida0/Data-Science-Project/blob/main/PRCP_Daily.png)
+![image](https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Daily.png)
+
+![image](https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Monthly.png)
+
+![image](https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/Land_Temp_Monthly.png)
+
+![image](https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/Comparing_Monthly_PRCP_Land.png)
 
 
 
