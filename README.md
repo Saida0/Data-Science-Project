@@ -4,9 +4,13 @@
 </p>
 
 ### Overview:
+Studies indicate that extreme weather conditions are likely to become more frequent with the global rise in climate change. Given the recent heavy rainfall we have experienced in NYC over the summer, the purpose of this project is to explore whether or not the changes in NYC's precipitation levels showed any observable patterns with global land temperature changes from 1900 to 2021 using time-series analysis.
 
 
 ### Data:
+Both of the datasets used for this project are from the National Oceanic and Atmospheric Administration (NOAA).
+- **[Daily NYC Precipitation (1900-2021)](https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USW00094728/detail)**:
+- **[Monthly Global Land Temperature (1900-2021)](https://www.ncdc.noaa.gov/cag/global/time-series/globe/ocean/all/1/1900-2021)**:
 
 ### Technique:
 
