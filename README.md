@@ -9,8 +9,9 @@ Studies indicate that extreme weather conditions are likely to become more frequ
 
 ### Data:
 Both of the datasets used for this project are from the National Oceanic and Atmospheric Administration (NOAA).
-- **[Daily NYC Precipitation (1900-2021)](https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USW00094728/detail)**:
-- **[Monthly Global Land Temperature (1900-2021)](https://www.ncdc.noaa.gov/cag/global/time-series/globe/ocean/all/1/1900-2021)**:
+- **[Daily NYC Precipitation (1900-2021)](https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USW00094728/detail)**: Contains daily precipitation values taken from the NYC Central Park weather station. The weather station provides records starting from 1869, however, for this project only records starting from 1900 were used. Daily precipitation is measured in millimeters (mm.) and uses the base value of 32mm. for days without rainfall. In order to access and downlaod this dataset, the [NOAA API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2) had to be utilized. 
+
+- **[Monthly Global Land Temperature (1900-2021)](https://www.ncdc.noaa.gov/cag/global/time-series/globe/ocean/all/1/1900-2021)**: Contains monthly global land temperature values from 1900 to 2021. **The temperature values are based on land temperature** ***anomolies*** (i.e. a description of how the overall average temperature of the surface of the Earth deviates from what is expected) with the base periods being 1901-2000. This dataset is accessible by direct download. 
 
 ### Technique:
 
