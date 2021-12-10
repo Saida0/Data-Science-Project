@@ -4,14 +4,14 @@
 </p>
 
 ### Overview:
-Studies indicate that extreme weather conditions are likely to become more frequent with the global rise in climate change. Given the recent heavy rainfall we have experienced in NYC over the summer, the purpose of this project is to explore whether or not the changes in NYC's precipitation levels showed any observable patterns with global land temperature changes from 1900 to 2021 using time-series analysis.
+Studies indicate that extreme weather conditions are likely to become more frequent with the global rise in climate change. Given the recent heavy rainfall we have experienced in NYC over the summer, the purpose of this project is to explore whether or not the changes in NYC's precipitation levels show any observable correlations with global land temperature changes from 1900 to 2021 using time-series analysis.
 
 
 ### Data:
 Both of the datasets used for this project are from the National Oceanic and Atmospheric Administration (NOAA).
-- **[Daily NYC Precipitation (1900-2021)](https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USW00094728/detail)**: Contains daily precipitation values taken from the NYC Central Park weather station. The weather station provides records starting from 1869, however, for this project only records starting from 1900 were used. Daily precipitation is measured in millimeters (mm.) and uses the base value of 32mm. for days without rainfall. In order to access and downlaod this dataset, the [NOAA API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2) had to be utilized. 
+- **[Daily NYC Precipitation (1900-2021)](https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USW00094728/detail)**: Contains daily precipitation values taken from the NYC Central Park weather station. The weather station provides records starting from 1869, however, for this project only records starting from 1900 were used. Precipitation values are measured in millimeters (mm.). The base value of 32mm. is used instead of 0mm., even for days with no rainfall (dataset documentation does not specify why). In order to access and downlaod this dataset, the [NOAA API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2) has to be utilized. 
 
-- **[Monthly Global Land Temperature (1900-2021)](https://www.ncdc.noaa.gov/cag/global/time-series/globe/ocean/all/1/1900-2021)**: Contains monthly global land temperature values from 1900 to 2021. **The temperature values are based on land temperature** ***anomolies*** (i.e. a description of how the overall average temperature of the surface of the Earth deviates from what is expected) with the base periods being 1901-2000. This dataset is accessible by direct download. 
+- **[Monthly Global Land Temperature (1900-2021)](https://www.ncdc.noaa.gov/cag/global/time-series/globe/ocean/all/1/1900-2021)**: Contains monthly global land temperature values from 1900 to 2021. **The temperature values are based on land temperature** ***anomolies*** (i.e. a description of how the overall average temperature of the surface of the Earth deviates from what is expected) with the base periods being 1901-2000. This dataset is available for direct download. 
 
 ### Technique:
 (coming soon)
