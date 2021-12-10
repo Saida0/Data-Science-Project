@@ -11,7 +11,10 @@
 ### Technique:
 
 ### Analysis:
-![alt text](https://github.com/Saida0/Data-Science-Project/blob/main/PRCP_Daily.png)
+<p align="center">
+  <img src="https://github.com/Saida0/Data-Science-Project/blob/main/PRCP_Daily.png" />
+</p>
+
 ![alt text](https://github.com/Saida0/Data-Science-Project/blob/main/PRCP_Monthly.png)
 ![alt text](https://github.com/Saida0/Data-Science-Project/blob/main/Land_Temp_Monthly.png)
 ![alt text](https://github.com/Saida0/Data-Science-Project/blob/main/Comparing_Monthly_PRCP_Land.png)
