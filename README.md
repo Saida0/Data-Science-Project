@@ -12,9 +12,13 @@
 
 ### Analysis:
 
+<img src="img/PRCP_Daily.png" class="img-responsive" alt=""> </div>
+
+
 <p align="center">
   <img src="https://github.com/Saida0/Data-Science-Project/blob/main/PRCP_Daily.png" />
 </p>
+
 
 <p align="center">
   <img src="https://github.com/Saida0/Data-Science-Project/blob/main/PRCP_Monthly.png" />
