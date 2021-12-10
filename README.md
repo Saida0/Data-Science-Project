@@ -1,39 +1,19 @@
 # Changes in Precipitation Levels in NYC and Its Correlation With Land/Ocean Temperatures as Global Indicators of Climate Change
+<p align="center">
+  <img src="https://static01.nyt.com/images/2021/08/07/us/07xp-elsalandfall-2/07xp-elsalandfall-2-superJumbo.jpg" />
+</p>
 
-### Project Background:
-
-
-### Data Acquisition and Cleaning:
-
-### Data Exploration and Analysis:
-
-### Data Visualization 
+### Overview:
 
 
-```markdown
-Syntax highlighted code block
+### Data:
 
-# Header 1
-## Header 2
-### Header 3
+### Technique:
 
-- Bulleted
-- List
+### Analysis:
+![alt text](https://github.com/Saida0/Data-Science-Project/blob/main/PRCP_Daily.png)
+![alt text](https://github.com/Saida0/Data-Science-Project/blob/main/PRCP_Monthly.png)
+![alt text](https://github.com/Saida0/Data-Science-Project/blob/main/Land_Temp_Monthly.png)
+![alt text](https://github.com/Saida0/Data-Science-Project/blob/main/Comparing_Monthly_PRCP_Land.png)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Saida0/Data-Science-Project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
