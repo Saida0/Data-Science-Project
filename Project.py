@@ -29,7 +29,7 @@ from datetime import datetime
 # A. Retrieving and Saving NYC Precipitation Data from the NOAA API:
 """
 # saving access token generated from NOAA and NYC Central Park weather station ID
-token = 'ZTWXBaercSonANZmTcOfajcXlWQTCxrE'
+token = '' # insert api key
 station_id = 'GHCND:USW00094728'
 
 # arrays to store the data from the API response
