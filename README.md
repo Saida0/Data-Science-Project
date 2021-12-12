@@ -25,18 +25,26 @@ Both of the datasets used for this project are from the National Oceanic and Atm
 
 ### Analysis:
 
-This first chart is a time series bar chart which shows daily precipitation values from 1900 to 2021. Although the chart is very crowded, we can see a general distribution of precipition values. The chart shows the values for a total of **44,4413 days with the mean, minimum, and maximum values being 37.8mm., 32.0mm., and 378.1mm. respectively**. It may seem like it is impossible to make any constructive observations from looking at this chart, however, if we take a closer look we can see **dramatic spikes in precipitation levels occur during 1900, 1980, and 2021**. More interestingly, if we look at the **number of spikes above 250mm. from 1900 to 1960 compared to the number of spikes from 1960 to 2021**, we can definitely see an **increase in frequency**. 
+This first chart is a time series line plot which shows daily precipitation values from 1900 to 2021. Although the chart is very crowded, we can see a general distribution of precipition values. The chart shows the values for a total of **44,4413 days with the mean, minimum, maximum, and standard deviation values being 37.8mm., 32.0mm., 378.1mm., and 16.4mm., respectively**. It may seem like it is impossible to make any constructive observations from looking at this chart, however, if we take a closer look we can see **dramatic spikes in precipitation values occur around 1900, 1980, and 2021**. More interestingly, if we look at the **number of spikes above 250mm. from 1900 to 1960 compared to the number of spikes from 1960 to 2021**, we can definitely see an **increase in frequency**. 
 <p align="center">
   <img width="700" height="530" src="https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Daily.png">
 </p>
 
 
-Keeping in mind that certain months are naturally presented with more rainfall, I decided to look at seperate monthly precipitation averages using subplots. For most of the months, we can see an **increasing trend in the average precipitation value** as well as an **increase in the frequency of heavy rainfall spikes**. For instance, for the month of **June, between 1900 to 1960 (60-year interval)**, there was only **one instance where the precipitation value went past 45mm.**, but **between 1980 2021 (40-year interval)**, there were about **five instances where average rainfall went past the 45mm. threshold**.
+Keeping in mind that certain months are naturally presented with more rainfall, I decided to look at seperate monthly precipitation averages using subplots. For most of the months, we can see an **increasing trend in the average precipitation value** as well as an **increase in the frequency of heavy rainfall spikes**. For instance, for the month of **June, between 1900 to 1960 (60-year interval)**, there was only **one instance where the precipitation value went past 45mm.**, but **between 1980 to 2021 (40-year interval)**, there were about **five instances where average rainfall went past the 45mm. threshold**.
 <p align="center">
   <img width="1000" height="580" src="https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Monthly1.png">
 </p>
 
-![image](https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/Land_Temp_Monthly.png)
+
+This chart is a simple time series line plot of the monthly global land temperature average. It shows a clear increasing linear trend. But how does it compare with with the monthly NYC precipitation data?
+<p align="center">
+  <img width="700" height="530" src="https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/Land_Temp_Monthly.png">
+</p>
+
+Because the two datasets use different metrics (millimeters vs. Celsius), I initially wanted to compare them by tracking their percent change in value from either their starting values from 1900 OR percent change from their anomaly values, however this method gave unclear results. As a result, I resorted to using a secondary y-axis. 
+
+Although average monthly NYC precipitation does not show the same direct increasing trend as the monthly global land temperature data, they seem to show value spikes around the same years. For instance, both datasets reached new records for maximum values around 2016—2.5C° for land temperature and 60mm. for precipitation.
 
 ![image](https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/Comparing_Monthly_PRCP_Land.png)
 
