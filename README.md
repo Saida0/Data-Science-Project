@@ -19,9 +19,9 @@ Both of the datasets used for this project are from the National Oceanic and Atm
   - For cleaning the datasets, the datetime module was mainly utilized. 
 - #### Part 2: Combining Datasets 
   - Although both of the datasets used the same year range (1900-2021), the precipitation dataset gave **daily measurements** while the land temperature dataset gave **monthly average measurements**. In order to ensure this would not be a problem when combining the datasets, I had to make a seperate dataframe of monthly precipitation averages. 
-  - The land temperature and new monthly precipitation datasets were then merged using an inner join based on their values of month and year and saved to a new combined dataframe.
+  - The land temperature and new monthly precipitation datasets were then merged using an **inner join** based on their values of month and year, and then saved to a new dataframe.
 - #### Part 3: Data Analysis/Visualization
-  - See **[Analysis](#analysis)**
+  - (See **[Analysis](#analysis)**)
 
 
 ### Analysis:
