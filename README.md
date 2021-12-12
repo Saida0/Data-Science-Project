@@ -24,9 +24,11 @@ Both of the datasets used for this project are from the National Oceanic and Atm
   - See **[Analysis](#analysis)**
 
 ### Analysis:
-![image](https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Daily.png)
 
-This first chart is a time series bar chart which shows daily precipitation values from 1900 to 2021. Although the chart is very crowded, we can see a general distribution of precipition values. The chart shows the values for a total of 44,4413 days with the mean, minimum, and maximum values being 37.8mm., 32.0mm., and 378.1mm. respectively. It seems like it is impossible to make any constructive observations from looking at this chart, however, if we take a closer look we can see dramatic spikes in precipitation levels occur during 1900, 1980, and, most recently, 2021. More interestingly, if we look at the number of spikes above 250mm. from 1900 to 1960 compared to the number of spikes from 1960 to 2021, we can definitely see an increase in frequency. 
+This first chart is a time series bar chart which shows daily precipitation values from 1900 to 2021. Although the chart is very crowded, we can see a general distribution of precipition values. The chart shows the values for a total of **44,4413 days with the mean, minimum, and maximum values being 37.8mm., 32.0mm., and 378.1mm. respectively**. It may seem like it is impossible to make any constructive observations from looking at this chart, however, if we take a closer look we can see **dramatic spikes in precipitation levels occur during 1900, 1980, and 2021**. More interestingly, if we look at the **number of spikes above 250mm. from 1900 to 1960 compared to the number of spikes from 1960 to 2021**, we can definitely see an **increase in frequency**. 
+<p align="center">
+  <img width="700" height="530" src="https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Daily.png">
+</p>
 
 
 ![image](https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Monthly.png)
