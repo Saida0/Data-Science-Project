@@ -30,7 +30,7 @@ This first chart is a time series bar chart which shows daily precipitation valu
   <img width="700" height="530" src="https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Daily.png">
 </p>
 
-Keeping in mind that certain months are presented with more rainfall, I decided to look at seperate monthly precipitation averages using subplots. Taking a look at the charts from **March to June**, we can see an **increasing trends in the average precipitation value** over the years as well as an **increase in the frequency of heavy rainfall spikes**. For instance, for the month of **June, from 1900 to 1960 (60 year inteval)**, there was only **one instance where the precipitation value went past 45mm.**, but from **1980 and onward**, there were about **five instances where average rainfall went past the 45mm. threshold**.
+Keeping in mind that certain months are naturally presented with more rainfall, I decided to look at seperate monthly precipitation averages using subplots. For most of the months, we can see an **increasing trend in the average precipitation value** as well as an **increase in the frequency of heavy rainfall spikes**. For instance, for the month of **June, between 1900 to 1960 (60-year interval)**, there was only **one instance where the precipitation value went past 45mm.**, but **between 1980 2021 (40-year interval)**, there were about **five instances where average rainfall went past the 45mm. threshold**.
 ![image](https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Monthly.png)
 
 ![image](https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/Land_Temp_Monthly.png)
