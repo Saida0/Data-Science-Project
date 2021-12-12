@@ -44,9 +44,9 @@ This chart is a simple time series line plot of the monthly global land temperat
 </p>
 
 
-Because the two datasets use different metrics (millimeters vs. Celsius), I initially wanted to compare them by tracking their percent change in value from either their starting values from 1900 OR percent change from their anomaly values; however, using this method of "percent change" as a common metric for comparison gave unclear results. I resorted to using a secondary y-axis instead.
+Because the two datasets use different metrics (millimeters vs. Celsius), I initially wanted to compare them by tracking their percent change in value from either their starting values from 1900 OR percent change from their anomaly values; however, using this method of "percent change" as a common metric for comparison gave unclear results. I resorted to using a secondary y-axisin my chart instead.
 
-Although average monthly NYC precipitation does not show the same direct increasing trend as the monthly global land temperature data, they seem to **show value spikes around the same years**. For instance, **both datasets reached new records for maximum values around 2016—2.5C° for land temperature and 60mm.** for precipitation.
+Although average monthly NYC precipitation does not show the same direct increasing trend as the average monthly global land temperatures, they seem to **show value spikes around the same years**. For instance, **both datasets reached new records for maximum values around 2016 (2.5C° for land temperature and 60mm. for precipitation**).
 <p align="center">
   <img width="1000" height="575" src="https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/Comparing_Monthly_PRCP_Land.png">
 </p>
