@@ -34,7 +34,7 @@ This first chart is a time series line plot which shows daily precipitation valu
 
 Keeping in mind that certain months are naturally presented with more rainfall, I decided to look at seperate monthly precipitation averages using subplots. For most of the months, we can see an **increasing trend in the average precipitation value** as well as an **increase in the frequency of heavy rainfall spikes**. For instance, for the month of **June, between 1900 to 1960 (60-year interval)**, there was only **one instance where the precipitation value went past 45mm.**, but **between 1980 to 2021 (40-year interval)**, there were about **five instances where average rainfall went past the 45mm. threshold**.
 <p align="center">
-  <img width="1000" height="580" src="https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Monthly1.png">
+  <img width="1000" height="580" src="https://raw.githubusercontent.com/Saida0/Data-Science-Project/main/PRCP_Monthly1.png"
 </p>
 
 
@@ -54,11 +54,7 @@ Although average monthly NYC precipitation does not show the same direct increas
 
 ### Conclusion:
 - #### What were the results? Was my hypothesis correct?
+  - In my hypothesis, I had predicted that only looking at daily precipitation values would not show the same increasing trend as there is with the global monthly temperature data, but rather seasonal year-to-year precipitation values would. This hypothesis was somewhat correct because when looking at the data on a average monthly year-to-year basis, certain months showed an increasing trend.  
+
 - #### What would I have done differently?
-
-
-
-
-
-
-
+  - When cleaning and plotting the precipitation data, I would have dropped the days where there was little or no rainfall. Then, I would have done a distribution plot with the total number of days presented with only heavy rainfall for each year. This plotting method would have probably shown a better look at the increasing occurance of heavy rainfall in NYC.
