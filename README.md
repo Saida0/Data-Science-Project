@@ -1,4 +1,4 @@
-# Changes in Precipitation Levels in NYC and Its Correlation With Global Land Temperatures as an Indicator of Climate Change
+# Assessing the Relationship between New York City Precipitation Patterns and Global Land Temperature Anomalies: Implications for Climate Change Analysis
 <p align="center">
   <img src="https://static01.nyt.com/images/2021/08/07/us/07xp-elsalandfall-2/07xp-elsalandfall-2-superJumbo.jpg" />
 </p>
